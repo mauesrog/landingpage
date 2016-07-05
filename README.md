@@ -5,5 +5,5 @@ Using slack.com as inspiration, I tried to emulate as much of the style as I cou
 ![alt text](https://github.com/mauesrog/landingpage/blob/gh-pages/images/screen_caps/normal1.png "Full screen")
 ![alt text](https://github.com/mauesrog/landingpage/blob/gh-pages/images/screen_caps/normal2.png "Full screen 2")
 
-![alt text](https://github.com/mauesrog/landingpage/blob/gh-pages/images/screen_caps/resized-screen1.png "Resized screen")
-![alt text](https://github.com/mauesrog/landingpage/blob/gh-pages/images/screen_caps/resized-screen2.png "Resized screen 2")
+![alt text](https://github.com/mauesrog/landingpage/blob/gh-pages/images/screen_caps/resized-window1.png "Resized screen")
+![alt text](https://github.com/mauesrog/landingpage/blob/gh-pages/images/screen_caps/resized-window2.png "Resized screen 2")
