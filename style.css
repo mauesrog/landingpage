@@ -1,3 +1,7 @@
+/* Mauricio Esquivel Rogel
+* 7/4/16
+* css landpage */
+
 * {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -250,8 +254,7 @@ form .button:hover{
   color: rgb(150, 150, 150);
   font-size: 20px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5), only screen and (max-width: 640px){
+@media only screen and (max-width: 640px){
   nav {
     align-items: flex-start;
     height: 100px;
@@ -282,22 +285,12 @@ only screen and (min-device-pixel-ratio : 1.5), only screen and (max-width: 640p
     z-index: 10;
     flex-basis: 2%;
   }
-  /*#wtf {
-    height: 330px;
-    width: 190px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    align-content: space-around;
-    justify-content: center;
-  }*/
   nav li{
     text-align: center;
     pointer-events: all;
     font-size: 40px;
     width: 200px;
     height: 20px;
-    /*height: 0;*/
     opacity: 0;
   }
   label{
@@ -312,18 +305,6 @@ only screen and (min-device-pixel-ratio : 1.5), only screen and (max-width: 640p
     margin-top: 15px;
     float: right;
   }
-
-  /*nav li {
-    transition: all 1s;
-  }*/
-
-  /*input[type=checkbox]:checked + label {
-    z-index: 10;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    display: inline;
-  }*/
 
   input[type=checkbox]:checked ~ nav ul, input[type=checkbox]:checked ~ nav li, input[type=checkbox]:checked ~ nav rect, input[type=checkbox]:checked + #close-menu{
     transition: all 0.5s;
